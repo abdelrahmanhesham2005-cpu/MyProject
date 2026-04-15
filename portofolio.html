@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my personal portofolio">
+    <title>Abdelrahman Hesham Portfolio Website</title>
+    <style>
+        body{
+            margin:0;
+            padding: 15px;
+            background-color: white;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .container a{
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 12px;
+            background-color: #0077b5;
+            color: #eee;
+            text-decoration: none ;
+            border-radius: 12px;
+            font-weight: bold;
+            text-align:center;
+
+        }
+        .grade{
+            padding: 7px;
+            margin: 20px;
+            background-color: aliceblue;
+
+        }
+
+        h2{
+             color:#0077b5;
+             font-size:30px;
+             /*border: 3px rgb(89, 87, 216) dashed ;*/
+              
+             background-color: burlywood;
+             display: inline-block;
+            
+        }
+
+        h3{
+            color:rgb(81, 156, 52);
+            font-size: 20px;
+        
+        }
+
+        img{
+            border-radius:25%;
+            border: 10px red solid;
+            
+        }
+
+       
+    </style>
+</head>
+<body>
+    <!--header element-->
+    <header> 
+    <img src="myimage.JPG" width="150" alt="My Photo"  />
+    <h1><b>Abdelrahman Hesham</b></h1> 
+    <p><strong>Data Analyst</strong> | Turning raw data into insights</p>
+    </header>
+
+    <!--BODY CONTAINNER-->
+   <nav>
+    <ul>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Experience">Experience</li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+ </nav>
+
+<main>
+   <section id="about">
+        <h2>About Me</h2>
+        <p>As a CIS student who is passionate about turning data into real business impact. I am learning how to use data to solve problems and support smarter decisions.Currently, I am building my skills in Excel, SQL, Power BI, and Python through hands-on projects    </p >   
+   
+    </section>
+    <hr>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <table BORDER="1" class="grade">
+            <thead>
+            <tr>
+                <th>department  </th>
+                <th>Institute  </th>
+                <th>year  </th>
+                <th>GPA  </th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CIS</td>
+                <td>Alex University</td>
+                <td>2024</td>
+                <td>3.4</td>
+              </tr>
+            </tbody>
+        </table>
+        </section>
+        <hr>
+
+        <section id="Experience">
+            <h2>Experience</h2>
+             <ul>
+                <li>Digital Marketing Internships</li>
+                <li>Big Data Internships</li>
+                <li>Mobile development Internships</li>
+             </ul>
+        </section>
+        <hr>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+            <article>
+               <h3>project 1: Portofolio website</h3>
+               <p>My personal website project</p>
+        </article>
+
+        <article>
+            <h3>project 2: Calculator App </h3>
+            <p>Simple calculator using Java</p>
+        </article>
+
+        <article>
+            <h3>project 3:link Hub Website</h3>
+            <p>Link Hub application using html and CSS</p>
+        </article>
+   
+    </section>
+    <hr>
+
+    <section id="skills">
+        
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Dart</li>
+            </ul>
+            </li>
+            <li>Excel</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Statistics</li>
+            <li>HTML & CSS</li>
+            <li>Marketing Strategy</li>
+        </ul>
+
+    </div>
+    </section>
+    <hr>
+
+    <aside>
+       <h4>Quick Info</h4>
+         <p>Location: Alexandria,Egypt</p>
+         <p>Available for internships</p>
+   </aside>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form >
+        <label for="user">UserName</label><br>
+        <input id="user" type="text" name="user" placeholder="UserName"/>
+        <br>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name=" email" placeholder="write a valid email"/>
+        <br>
+        <label for="Msg">Message</label><br>
+        <textarea id="Msg" name="subjects" cols="10" rows="5" placeholder="write your feedback"></textarea>
+        <br>
+        <input type="submit" value="save" />
+        <input type="Reset" value="Reset" />
+      </form>
+
+      <div class="container">
+      <a href="https://www.linkedin.com/in/abdelrahman-hesham03" target="_blank" title="My linkedin Profile" >visit My Profile</a>
+      <p>Thank you</p>
+      </div>
+    </section>
+</main>
+      <!--footer-->
+      <footer>
+      <p>&copy 2026 My Portofolio.All right reserved</p>
+      </footer>
+
+</body>
+</html>
